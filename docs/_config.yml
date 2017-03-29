@@ -1,0 +1,9 @@
+title: "Deep Learning in NEXT"
+tlink: "index.html"
+description: "Deep learning has been used to solve a wide range of difficult problems in recent years, and it has strong potential for applications in detector physics analyses.  Here we describe a general analysis scheme for the NEXT experiment which makes use of modern machine learning tools in various stages."
+nextlink: "http://next.ific.uv.es/next"
+github_username: "jerenner/next-deeplearning-analysis"
+markdown: kramdown
+theme: minima
+gems: [jekyll-octicons]
+pages: [Index]
