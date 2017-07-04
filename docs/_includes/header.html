@@ -13,13 +13,10 @@
         </svg>
       </span>
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
+      {% if site.github_username %}
+          {% include icon-github.html username=site.github_username %}
+      {% endif %}
+
     </nav>
 
   </div>
